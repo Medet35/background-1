@@ -1,0 +1,44 @@
+.container{
+    border: 0px solid rgb(82, 78, 78);
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px 50px 20px; 
+}
+.block1{
+  display: inline-block;
+  border: 0px solid gainsboro;
+  margin-top: 20px;
+  color: blue;
+  cursor: pointer;
+  
+}
+.block2{
+ display: inline-block;
+ margin-top: 20px;
+ border: 0px solid gainsboro;
+ margin-left: 20px;
+ color: blue;
+ cursor: pointer;
+ 
+}
+.block1:hover{
+    cursor: pointer;
+    color: blue;
+    border-bottom: 1px solid blue;
+   
+}
+.block2:hover{
+    cursor: pointer;
+    color: blue;
+    border-bottom: 1px solid blue  
+}
+#image{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-left: 110px;
+    margin-top: -300px;
+}
+    
